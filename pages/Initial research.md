@@ -8,6 +8,7 @@
 - Some intial documents
 	- ![Spatial-Temporal_Deep_Learning_for_Hosting_Capacity_Analysis_in_Distribution_Grids.pdf](../assets/Spatial-Temporal_Deep_Learning_for_Hosting_Capacity_Analysis_in_Distribution_Grids_1697311871893_0.pdf)
 		- Summary
+		  collapsed:: true
 			- ((652aecbf-6ede-4658-af6d-0ff2a7ad49de))
 			- HC
 				- ((652aed3d-d633-43d4-aefa-9a75f7927c9d))
@@ -76,11 +77,6 @@
 			- ![2023CIGRECairns-Michael-Vincenzo-Nando-Tansu-Chris-Peter-Kenneth-John-FromModel-DriventoModel-Free-RG.pdf](../assets/2023CIGRECairns-Michael-Vincenzo-Nando-Tansu-Chris-Peter-Kenneth-John-FromModel-DriventoModel-Free-RG_1699287855974_0.pdf)
 		- https://electrical.eng.unimelb.edu.au/power-energy/projects/model-free-operating-envelopes
 			-
-			-
-			-
-			-
-			-
-			-
 - Questions
 	- Intro chapters
 		- Penetration of EV-PV (DER) -> effect on LV network constraints?
@@ -113,7 +109,11 @@
 			- e.g. different Deep learning algorithms
 				- Which hyperparameters are most important?
 				- Algorithm selection
-	- Implementation?
+		- Evaluate feasibility
+			- smart meter data collection
+			- Real time application to NN
+			- Computing time, expenses etc>
+	- Implementation of an algorithm evaluator (doing it myself)?
 		- For what part will I have to dig into code? (github etc.)
 		- How is it/can it be integrated in Smart meters?
 - Next reading
