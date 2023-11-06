@@ -216,3 +216,45 @@ file-path:: ../assets/Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behavio
   hl-color:: red
   id:: 65490de6-1bcf-4e21-9ff5-fcaaa7080c7c
   hl-stamp:: 1699286503745
+- For maximum line loading and minimal node voltage plots, the presented results are not from a speciﬁc line or node, but the worst recorded value among all the relevant elements of the grid as a whole.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 65490eb7-e67f-4c75-b515-6c86f42cd063
+  hl-stamp:: 1699286712352
+- we can see that transformer, line and node results show a similar trend in most cases
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 65490edc-7a70-45d5-a4a4-f2a1a479be2a
+- Several key indicators of the magnitude, duration and scale of the grid congestion aree examined. The overall performance of all grids is summarised in Table. 3.
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 65490f0a-8ecf-4062-9a25-ac39efb43760
+- similarities
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: green
+  id:: 65490f10-c12d-42c3-be5d-12b5c3fe23c7
+  hl-stamp:: 1699286802008
+- First
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: green
+  id:: 65490f20-0a31-4f32-888b-3f4705d6d305
+- Secondl
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: green
+  id:: 65490f30-986d-44a8-b135-b9db9b5d6020
+- Thirdly
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: green
+  id:: 65491006-23e8-4978-b0ae-890c5a848e64
+- Thirteen out of twenty-one simulated grids encounter no congestion in any form even with an 80% EV penetration level. Most of the congestion has a relatively short duration on a small scale, where smart charging scheduling is needed, and a good result can be expected
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: green
+  id:: 6549103a-41a2-4759-af1e-2676c14fde3b
