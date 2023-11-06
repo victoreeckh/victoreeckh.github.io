@@ -258,3 +258,26 @@ file-path:: ../assets/Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behavio
   hl-page:: 16
   hl-color:: green
   id:: 6549103a-41a2-4759-af1e-2676c14fde3b
+- Even though this uncontrolled EV charging impact study advocate a rather optimistic outcome regarding distribution grids integrated with high EV penetration levels, there are a few things shall be noted
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 6549111a-40e6-4adb-a485-4581e93c7177
+  hl-stamp:: 1699287325204
+- The results of this study reﬂect what degree the EV uncontrolled charging overburdened the grids and what are the relevant impact factors, thus offering a valuable reference concerning future planning for DSOs.
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: yellow
+  id:: 65491142-2820-43f4-bcea-b5c2f8684a8e
+- Finally
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: green
+  id:: 6549115a-2f15-42c4-bcf1-9a3e361012b8
+  hl-stamp:: 1699287388298
+- CONCLUSION AND RECOMMENDATION
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: red
+  id:: 6549117a-9e20-4b09-894c-422e777209bd
+  hl-stamp:: 1699287419783

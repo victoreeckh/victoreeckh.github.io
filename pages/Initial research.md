@@ -42,6 +42,7 @@
 				- ((653a7e5d-4ca5-40ef-8785-63230845e21c))
 	- ![Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behaviour_With_Increasing_Electric_Vehicle_Penetration.pdf](../assets/Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behaviour_With_Increasing_Electric_Vehicle_Penetration_1699179106790_0.pdf)
 		- Summary
+		  collapsed:: true
 			- Abstract
 				- ((65476c5a-b106-411c-b1d0-9e599df40547))
 				- ((65476c83-050e-416e-95db-465170c979d0))
@@ -62,17 +63,24 @@
 				- ((65490de6-1bcf-4e21-9ff5-fcaaa7080c7c))
 					- Interesting PF simulation package in python
 			- Conclusion
-				-
+				- ((6549117a-9e20-4b09-894c-422e777209bd))
+				- Read!
 			-
 		- Questions
+		  collapsed:: true
 			- How to measure EV impact on network?
-				- PF calculations (deterministic)
-				- Monte Carlo simulation? (stochastic)
-				- ICA
-		-
-		-
-		-
-		-
+	- Ongoing project: Model-Free DER Hosting Capacity and Operating Envelopes
+		- slides
+			- ![UoM-C4NET-Model-FreeDERHCandOEsProjectUpdate-Final.pdf](../assets/UoM-C4NET-Model-FreeDERHCandOEsProjectUpdate-Final_1699287628166_0.pdf)
+		- Paper
+			- ![2023CIGRECairns-Michael-Vincenzo-Nando-Tansu-Chris-Peter-Kenneth-John-FromModel-DriventoModel-Free-RG.pdf](../assets/2023CIGRECairns-Michael-Vincenzo-Nando-Tansu-Chris-Peter-Kenneth-John-FromModel-DriventoModel-Free-RG_1699287855974_0.pdf)
+		- https://electrical.eng.unimelb.edu.au/power-energy/projects/model-free-operating-envelopes
+			-
+			-
+			-
+			-
+			-
+			-
 - Questions
 	- Intro chapters
 		- Penetration of EV-PV (DER) -> effect on LV network constraints?
