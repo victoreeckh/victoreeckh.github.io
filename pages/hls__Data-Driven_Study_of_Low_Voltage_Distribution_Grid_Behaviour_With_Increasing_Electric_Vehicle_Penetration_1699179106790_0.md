@@ -210,3 +210,9 @@ file-path:: ../assets/Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behavio
   hl-page:: 6
   hl-color:: yellow
   id:: 6548ff82-11f7-4259-b1d5-d29bef2bd21c
+- METHODOLOGY AND SIMULATION DATA
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: red
+  id:: 65490de6-1bcf-4e21-9ff5-fcaaa7080c7c
+  hl-stamp:: 1699286503745

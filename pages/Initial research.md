@@ -59,7 +59,9 @@
 					- Interesting Python package
 						- ((6548fc64-05eb-4b25-b2a9-7b40db3b8102))
 				- EV penetration
-					-
+				- ((65490de6-1bcf-4e21-9ff5-fcaaa7080c7c))
+					- Interesting PF simulation package in python
+				-
 			-
 		- Questions
 			- How to measure EV impact on network?
