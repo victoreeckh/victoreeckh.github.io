@@ -1,0 +1,207 @@
+<ul>
+  <li>
+    <a href="../assets/Thesis_Proposal_Master_Energ1_1697311749137_0.pdf">Thesis Proposal Master Energ1.pdf</a>
+  </li>
+  <ul>
+    <li>HC</li>
+    <ul>
+      <li>The HC of combined EV-PV in the distribution system refers to the maximum amount of EVs and PVs that can be integrated into the low-voltage grid without exceeding the system security indices</li>
+      <li/>
+    </ul>
+    <li>Research question</li>
+    <ul>
+      <li>The use of smart meters has the potential to revolutionize the distribution system by enabling real-time monitoring of system variables and providing a large amount of data to system operators. This abundance of data can be used to overcome the shortcomings of current HC analysis methods by investigating data-driven approaches that can map power flow data to the combined hosting capacity of EVs and PVs. By leveraging historical data, it is possible to estimate the combined hosting capacity without having to calculate power flow [3]. The proposed machine learning approach should consider the spatial-temporal effects of EVPV and capture the correlation between them in determining the combined hosting capacity. A strong background in machine learning, particularly deep learning, and distribution power system analysis is necessary for this research.</li>
+    </ul>
+  </ul>
+  <li>Some intial documents</li>
+  <ul>
+    <li>
+      <a href="../assets/Spatial-Temporal_Deep_Learning_for_Hosting_Capacity_Analysis_in_Distribution_Grids_1697311871893_0.pdf">Spatial-Temporal_Deep_Learning_for_Hosting_Capacity_Analysis_in_Distribution_Grids.pdf</a>
+    </li>
+    <ul>
+      <li>Summary</li>
+      <ul>
+        <li>long short-term memory (LSTM)</li>
+        <li>HC</li>
+        <ul>
+          <li>HC is denoted as the maximum active power that can be injected by DERs at a bus in an existing distribution grid without causing technical problems or requiring changes to power system facilities.</li>
+        </ul>
+        <li>Different HCA techniques</li>
+        <ul>
+          <li>Traditional HCA methods typically conduct power ﬂow analysis for a baseline feeder model and modiﬁed scenarios with different load proﬁles, DER penetration, and other uncertainties caused by the environment, power equipment, and human activities [6]</li>
+          <li>the deterministic (worst-case), stochastic, streamlined, and iterative Integration Capacity Analysis (ICA) methods</li>
+          <li>time-series, ICA</li>
+          <ul>
+            <li>Differently, using historical time-series data, the streamlined method [22] and the iterative ICA [23], [24] method provide insight into how hosting capacity changes over time and the ability to derive a corresponding hosting capacity pattern subjected to time</li>
+            <li>calculation burden is still the limit of traditional HCA for real-time tasks</li>
+          </ul>
+          <li>Machine Learning</li>
+          <ul>
+            <li>our learning-based HCA is to ﬁnd a mapping rule between the power ﬂow data and the hosting capacity data.</li>
+            <li>longest paths method</li>
+          </ul>
+        </ul>
+        <li>LSTM illustration</li>
+        <ul>
+          <li>time-series -&gt; RNN</li>
+          <ul>
+            <li>An RNN is a series of identical feedforward neural networks, one unit for each time or step, which are known as ‘RNN cells’ [43], [44]</li>
+          </ul>
+        </ul>
+        <li>Test cases</li>
+        <ul>
+          <li>IEEE 123-bus feeder</li>
+          <li>Arizona utility high penetration feeder</li>
+        </ul>
+      </ul>
+      <li>Questions</li>
+      <ul>
+        <li>Input training data are vectors of voltage magnitudes and angles (load and PV profiles) etc. that are obtained through powerflow analysis, so the structure of the network still has to be known to generate the training set?</li>
+        <ul>
+          <li>-&gt; Not modelfree?</li>
+          <li>No topology identification?</li>
+        </ul>
+        <li>Why does longest path method work best?</li>
+      </ul>
+    </ul>
+    <li>
+      <a href="../assets/Electrical_Model-Free_Voltage_Calculations_Using_Neural_Networks_and_Smart_Meter_Data_1697314312902_0.pdf">Electrical_Model-Free_Voltage_Calculations_Using_Neural_Networks_and_Smart_Meter_Data.pdf</a>
+    </li>
+    <ul>
+      <li>Summary</li>
+      <ul>
+        <li>his paper proposes a scalable electrical model-free voltage calculation methodology that uses Neural Networks to capture the underlying relationships among historical smart meter data (P, Q, and V) and the corresponding LV network.</li>
+        <li>Results considering different weeks with the same and higher PV penetrations demonstrate an average error of less than 2 Volts; showing that, in the absence of LV electrical models, the methodology could be used by distribution companies for different applications</li>
+        <li>This paper proposes a scalable methodology based on nonlinear regressions, speciﬁcally using Neural Networks (NNs), to calculate voltages without electrical models</li>
+        <li>NN selection</li>
+        <ul>
+          <li>Therefore, the hyperparameters that are found to be the most suitable for a particular LV network will not work when using another LV network with different characteristics. Consequently, a scalable methodology to ﬁnd the most suitable NNs (i.e., NN∗ and MNN∗) is crucial so the same recipe can be applied by distribution companies on any type or size of LV network.</li>
+        </ul>
+      </ul>
+    </ul>
+    <li>
+      <a href="../assets/Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behaviour_With_Increasing_Electric_Vehicle_Penetration_1699179106790_0.pdf">Data-Driven_Study_of_Low_Voltage_Distribution_Grid_Behaviour_With_Increasing_Electric_Vehicle_Penetration.pdf</a>
+    </li>
+    <ul>
+      <li>Summary</li>
+      <ul>
+        <li>Abstract</li>
+        <ul>
+          <li>In this paper, the impact of Electric Vehicle (EV) uncontrolled charging with four levels of EV penetration in overall 21 real low voltage distribution grids in two seasons are analysed.</li>
+          <li>Three key congestion indicators, the transformer loading, line loading and node voltage as well as several other evaluation indexes are studied</li>
+          <li>The results reveal that the majority of the simulated grids had no or minor moments of mild overloading while the rest grids had critical issues. Among all the grids, suburban grids are most vulnerable to massive EV integration. Out of the evaluated grids, those who are located in Germany have the highest redundancy for high EV penetration accommodation. Overall, the impact of uncontrolled EV charging depends on the combination of EV charging demand as well as the grid inherent features.</li>
+        </ul>
+        <li>Literature review</li>
+        <ul>
+          <li>The inﬂuence of data-driven uncertainties in driver behaviour and energy demand of the EVs toward the grid impact of uncontrolled charging is considered in [3], [4], [12], [13].</li>
+          <li>How does Monte Carlo simulation of EV impact work?</li>
+          <ul>
+            <li>Researchers of [22], [23] ran a plentiful of Monte Carlo simulations to investigate the EV charging impact of 0-100% penetration levels on two real British LV distribution grids whose grid types are not speciﬁed</li>
+          </ul>
+        </ul>
+        <li>Focus</li>
+        <ul>
+          <li>The focus of this paper is to use measured probabilistic data pertaining to energy demand, arrival and departure time of EVs to investigate the impact of uncontrolled charging for several actual grids in Europe.</li>
+        </ul>
+        <li>Methodology</li>
+        <ul>
+          <li>Grid data</li>
+          <ul>
+            <li>Since EV penetration is assumed proportional to the Nhh in this paper, it can be inferred that an increase in serviced EVs for the given penetration level will be maximum for the SUB functional category.</li>
+          </ul>
+          <li>Load</li>
+          <ul>
+            <li>Interesting Python package</li>
+            <ul>
+              <li>The standardised PV proﬁle was derived from weather data using the Python package PVwatts from NREL [28].</li>
+            </ul>
+          </ul>
+          <li>EV penetration</li>
+          <ul>
+            <li/>
+          </ul>
+        </ul>
+        <li/>
+      </ul>
+      <li>Questions</li>
+      <ul>
+        <li>How to measure EV impact on network?</li>
+        <ul>
+          <li>PF calculations (deterministic)</li>
+          <li>Monte Carlo simulation? (stochastic)</li>
+          <li>ICA</li>
+        </ul>
+      </ul>
+      <li/>
+      <li/>
+      <li/>
+      <li/>
+    </ul>
+  </ul>
+  <li>Questions</li>
+  <ul>
+    <li>Intro chapters</li>
+    <ul>
+      <li>Penetration of EV-PV (DER) -&gt; effect on LV network constraints?</li>
+      <ul>
+        <li>Distinction between different LV grids</li>
+        <ul>
+          <li>Geography, function</li>
+        </ul>
+        <li>Different penetration levels</li>
+      </ul>
+      <li>-&gt; It is vital to know HC -&gt; different ways to calculate HCA</li>
+      <ul>
+        <li>Traditional</li>
+        <ul>
+          <li>Deterministic</li>
+          <ul>
+            <li>Traditional HCA methods</li>
+            <ul>
+              <li>Traditional HCA methods typically conduct power ﬂow analysis for a baseline feeder model and modiﬁed scenarios with different load proﬁles, DER penetration, and other uncertainties caused by the environment, power equipment, and human activities [6]</li>
+            </ul>
+            <li>The deterministic method obtains an optimal solution on a single scenario, usually the worst-case scenario(s)</li>
+          </ul>
+          <li>Stochastic</li>
+          <ul>
+            <li>probabilistic techniques, e.g., Monte Carlo simulation, model the uncertainties in the power system</li>
+          </ul>
+          <li>ICA</li>
+          <ul>
+            <li>Differently, using historical time-series data, the streamlined method [22] and the iterative ICA [23], [24] method provide insight into how hosting capacity changes over time and the ability to derive a corresponding hosting capacity pattern subjected to time</li>
+          </ul>
+        </ul>
+        <li>Machine learning based solution</li>
+      </ul>
+    </ul>
+    <li>Only evaluation?</li>
+    <ul>
+      <li>Evaluate traditional vs ML</li>
+      <li>Evaluate different ML algos</li>
+      <li>Evaluate in which dimensions?</li>
+      <ul>
+        <li>Accuracy (computed vs actual HC)</li>
+        <li>Amount of network/bus violations (overvoltages etc.)</li>
+        <li>Computational burden</li>
+      </ul>
+      <li>Evaluate different approaches</li>
+      <ul>
+        <li>e.g. different Deep learning algorithms</li>
+        <ul>
+          <li>Which hyperparameters are most important?</li>
+          <li>Algorithm selection</li>
+        </ul>
+      </ul>
+    </ul>
+    <li>Implementation?</li>
+    <ul>
+      <li>For what part will I have to dig into code? (github etc.)</li>
+      <li>How is it/can it be integrated in Smart meters?</li>
+    </ul>
+  </ul>
+  <li>Next reading</li>
+  <ul>
+    <li>S. Balduin, T. Westermann, and E. Puiutta, “Evaluating different machine learning techniques as surrogate for low voltage grids,” Energy Inform., vol. 3, p. 24, Oct. 2020.</li>
+    <li/>
+  </ul>
+</ul>
